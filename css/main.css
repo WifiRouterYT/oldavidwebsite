@@ -31,7 +31,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.titletext {
+#titletext span {
     background: -webkit-linear-gradient(white, #38495a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
