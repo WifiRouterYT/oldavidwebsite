@@ -11,6 +11,18 @@
 </head>
 
 <body id="t" class="offline">
+    <script>
+    var elem = document.getElementById("offline");
+    function openFullscreen() {
+      if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) { /* Safari */
+          elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) { /* IE11 */
+         elem.msRequestFullscreen();
+    }
+    }
+    </script>
     <div id="messageBox" class="sendmessage">
          <h1 style="text-align: center;font-family: 'Open Sans', sans-serif;">Press Space to start</h1>
          <div class="niokbutton" onclick="okbuttonsend()"></div>
