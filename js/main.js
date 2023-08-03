@@ -1,5 +1,3 @@
-window.location = "/error?code=403"
-
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
